@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Job Extintion!</title>
+		<link rel="stylesheet" href="./styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que funcionen los media-query en dispositivos móviles -->
+	</head>
+	<body>
+		<section id="select-dino">
+			<h1>Job Extintion! 🔥💧🌱</h1>
+			<h2>Pick your dinochamba</h2>
+
+			<div id="cards-box">
+
+			</div>
+
+			<div><button id="btn-dino">Pick</button></div>
+		</section> 
+
+		<section id="see-map">
+			<h1>Job Extintion! 🔥💧🌱</h1>
+			<h2>Walk around the map</h2>
+			<canvas id="map"></canvas>
+
+			<button
+				ontouchend="stopMovement()"
+				onmouseup="stopMovement()"
+				ontouchstart="moveUp()"
+				onmousedown="moveUp()">Up
+			</button>
+			<div>
+				<button
+					ontouchend="stopMovement()" 
+					onmouseup="stopMovement()"
+					ontouchstart="moveLeft()"
+					onmousedown="moveLeft()">Left
+				</button>
+
+				<button
+					ontouchend="stopMovement()" 
+					onmouseup="stopMovement()"
+					ontouchstart="moveDown()"
+					onmousedown="moveDown()">Down
+				</button>
+
+				<button
+					ontouchend="stopMovement()" 
+					onmouseup="stopMovement()"
+					ontouchstart="moveRight()"  
+					onmousedown="moveRight()">Right
+				</button>
+			</div>
+		</section>
+
+		<section id="select-attack">
+			<h1>Job Extintion! 🔥💧🌱</h1>
+			<h2>Pick your attack</h2>
+
+			<div id="attack-buttons">  
+			</div>
+		</section>
+
+		<section id="battle">
+			<h2>Battle</h2>
+
+			<div id="messages"></div>
+
+			<div><button id="btn-restart">Restart game</button></div>
+
+			<div id="battle-cards">
+				<div id="players-card" class="battle-card">
+					<p><span id="players-dino"></span></p>
+					<p><span id="players-wins">0</span></p>
+				</div>
+
+				<div id="result-card" class="battle-card">
+					<p>vs</p>
+					<p>👑</p>
+				</div>
+				
+				<div id="enemys-card" class="battle-card">
+					<p><span id="enemys-dino"></span></p>
+					<p><span id="enemys-wins">0</span></p>
+				</div>
+			</div>
+		</section>
+        <script src="./js/dino.js"></script>
+	</body>
+</html>
