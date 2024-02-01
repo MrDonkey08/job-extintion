@@ -32,4 +32,4 @@ Conviértete en un chambasaurio y pelea para que tu chamba no se extinga. Enfré
 
 ## Certificación
 
-[Mi certificado](https://platzi.com/p/Alan_08/curso/1557-course/diploma/detalle/)
+[Mi certificado](https://platzi.com/p/Alan_08/curso/3208-course/diploma/detalle/)
